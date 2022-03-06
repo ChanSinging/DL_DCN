@@ -1,0 +1,55 @@
+Namespace(batchSize=16, cuda=True, dataset='datasets/', lr=0.0001, momentum=0.9, nEpochs=3000, resume='', start_epoch=1, step=1000, test_path='dataset/test/', threads=16, validate_path='datasets/validate/', weight_decay=0)
+===> Loading datasets
+===> Building model
+n_pyramids: 1 n_pyramid_cells: (3, 2, 1, 1, 1, 1)
+===> Setting GPU
+===> Setting Optimizer
+===> Training
+Epoch=1, lr=0.0001
+===> Epoch[1](1/11): Loss: 0.4486539066
+===> Epoch[1](2/11): Loss: 0.4680840373
+===> Epoch[1](3/11): Loss: 0.4019842744
+===> Epoch[1](4/11): Loss: 0.5323505998
+===> Epoch[1](5/11): Loss: 0.3305062950
+===> Epoch[1](6/11): Loss: 0.4250938892
+===> Epoch[1](7/11): Loss: 0.4536194801
+===> Epoch[1](8/11): Loss: 0.2884054780
+===> Epoch[1](9/11): Loss: 0.2754864693
+===> Epoch[1](10/11): Loss: 0.4808400571
+===> Epoch[1](11/11): Loss: 0.3722698092
+|||||||||||||||||||||min_epoch_loss is 0.4070267542|||||||||||||||||||||
+----Start Validate----
+Traceback (most recent call last):
+  File "train_psnr_indication.py", line 313, in <module>
+    main()
+  File "train_psnr_indication.py", line 160, in main
+    validate(model, optimizer, epoch)
+  File "train_psnr_indication.py", line 283, in validate
+    out = model(input)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/CBREN/model.py", line 632, in forward
+    t_x1 = self.dual_domain_blocks_x1(t_x1)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/CBREN/model.py", line 447, in forward
+    ty_weight = self.get_weight_y(_t)  # [16, 1, 43, 43]
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/CBREN/model.py", line 33, in forward
+    y = self.fc(y).view(b, c, 1, 1)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/activation.py", line 102, in forward
+    return F.relu(input, inplace=self.inplace)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/functional.py", line 1204, in relu
+    result = torch.relu_(input)
+KeyboardInterrupt

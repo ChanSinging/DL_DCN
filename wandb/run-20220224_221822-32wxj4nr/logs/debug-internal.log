@@ -1,0 +1,288 @@
+2022-02-24 22:18:23,091 INFO    MainThread:4028877 [internal.py:wandb_internal():92] W&B internal server running at pid: 4028877, started at: 2022-02-24 22:18:23.091762
+2022-02-24 22:18:23,093 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: check_version
+2022-02-24 22:18:23,093 INFO    WriterThread:4028877 [datastore.py:open_for_write():77] open: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/run-32wxj4nr.wandb
+2022-02-24 22:18:23,094 DEBUG   SenderThread:4028877 [sender.py:send():235] send: header
+2022-02-24 22:18:23,094 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: check_version
+2022-02-24 22:18:23,490 DEBUG   SenderThread:4028877 [sender.py:send():235] send: run
+2022-02-24 22:18:24,147 INFO    SenderThread:4028877 [dir_watcher.py:__init__():169] watching files in: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files
+2022-02-24 22:18:24,147 INFO    SenderThread:4028877 [sender.py:_start_run_threads():812] run started: 32wxj4nr with start time 1645712302
+2022-02-24 22:18:24,147 DEBUG   SenderThread:4028877 [sender.py:send():235] send: summary
+2022-02-24 22:18:24,147 INFO    SenderThread:4028877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-24 22:18:24,148 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: run_start
+2022-02-24 22:18:24,150 DEBUG   HandlerThread:4028877 [meta.py:__init__():36] meta init
+2022-02-24 22:18:24,150 DEBUG   HandlerThread:4028877 [meta.py:__init__():50] meta init done
+2022-02-24 22:18:24,150 DEBUG   HandlerThread:4028877 [meta.py:probe():210] probe
+2022-02-24 22:18:24,156 DEBUG   HandlerThread:4028877 [meta.py:_setup_git():200] setup git
+2022-02-24 22:18:24,162 DEBUG   HandlerThread:4028877 [meta.py:_setup_git():207] setup git done
+2022-02-24 22:18:24,162 DEBUG   HandlerThread:4028877 [meta.py:_save_pip():54] save pip
+2022-02-24 22:18:24,163 DEBUG   HandlerThread:4028877 [meta.py:_save_pip():68] save pip done
+2022-02-24 22:18:24,163 DEBUG   HandlerThread:4028877 [meta.py:_save_conda():75] save conda
+2022-02-24 22:18:25,066 DEBUG   HandlerThread:4028877 [meta.py:_save_conda():85] save conda done
+2022-02-24 22:18:25,066 DEBUG   HandlerThread:4028877 [meta.py:probe():248] probe done
+2022-02-24 22:18:25,067 DEBUG   SenderThread:4028877 [sender.py:send():235] send: files
+2022-02-24 22:18:25,067 INFO    SenderThread:4028877 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-24 22:18:25,072 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:18:25,072 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:18:25,148 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_created():217] file/dir created: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/requirements.txt
+2022-02-24 22:18:25,148 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_created():217] file/dir created: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-metadata.json
+2022-02-24 22:18:25,148 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_created():217] file/dir created: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:18:25,148 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_created():217] file/dir created: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-summary.json
+2022-02-24 22:18:25,148 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_created():217] file/dir created: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/conda-environment.yaml
+2022-02-24 22:18:26,295 INFO    Thread-11 :4028877 [upload_job.py:push():137] Uploaded file /tmp/tmpbbsqubq2wandb/2vzxum3j-wandb-metadata.json
+2022-02-24 22:18:27,148 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:18:30,149 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:18:32,149 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:18:34,150 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:18:34,201 DEBUG   SenderThread:4028877 [sender.py:send():235] send: history
+2022-02-24 22:18:34,201 DEBUG   SenderThread:4028877 [sender.py:send():235] send: summary
+2022-02-24 22:18:34,201 INFO    SenderThread:4028877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-24 22:18:35,150 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-summary.json
+2022-02-24 22:18:36,151 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:18:40,858 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:18:40,858 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:18:52,642 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:18:56,394 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:18:56,394 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:19:11,882 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:19:11,882 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:19:22,809 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:19:27,645 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:19:27,645 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:19:43,099 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:19:43,100 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:19:52,972 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:19:58,613 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:19:58,613 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:20:02,230 DEBUG   SenderThread:4028877 [sender.py:send():235] send: history
+2022-02-24 22:20:02,230 DEBUG   SenderThread:4028877 [sender.py:send():235] send: summary
+2022-02-24 22:20:02,230 INFO    SenderThread:4028877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-24 22:20:03,170 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-summary.json
+2022-02-24 22:20:04,171 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:20:06,171 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:20:08,172 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:20:08,178 DEBUG   SenderThread:4028877 [sender.py:send():235] send: history
+2022-02-24 22:20:08,178 DEBUG   SenderThread:4028877 [sender.py:send():235] send: summary
+2022-02-24 22:20:08,178 INFO    SenderThread:4028877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-24 22:20:09,172 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-summary.json
+2022-02-24 22:20:10,172 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:20:14,355 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:20:14,355 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:20:23,141 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:20:29,981 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:20:29,981 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:20:45,445 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:20:45,446 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:20:53,307 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:21:01,168 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:21:01,169 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:21:16,751 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:21:16,751 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:21:23,472 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:21:27,834 DEBUG   SenderThread:4028877 [sender.py:send():235] send: history
+2022-02-24 22:21:27,834 DEBUG   SenderThread:4028877 [sender.py:send():235] send: summary
+2022-02-24 22:21:27,834 INFO    SenderThread:4028877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-24 22:21:28,188 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-summary.json
+2022-02-24 22:21:30,189 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:21:32,189 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:21:32,238 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:21:32,238 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:21:33,837 DEBUG   SenderThread:4028877 [sender.py:send():235] send: history
+2022-02-24 22:21:33,837 DEBUG   SenderThread:4028877 [sender.py:send():235] send: summary
+2022-02-24 22:21:33,838 INFO    SenderThread:4028877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-24 22:21:34,190 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:21:34,190 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-summary.json
+2022-02-24 22:21:36,190 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:21:47,734 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:21:47,734 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:21:53,641 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:22:03,446 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:22:03,447 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:22:18,987 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:22:18,987 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:22:23,804 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:22:34,725 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:22:34,725 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:22:51,236 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:22:51,236 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:22:53,786 DEBUG   SenderThread:4028877 [sender.py:send():235] send: history
+2022-02-24 22:22:53,786 DEBUG   SenderThread:4028877 [sender.py:send():235] send: summary
+2022-02-24 22:22:53,788 INFO    SenderThread:4028877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-24 22:22:53,971 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:22:54,207 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-summary.json
+2022-02-24 22:22:56,207 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:22:58,208 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:22:59,631 DEBUG   SenderThread:4028877 [sender.py:send():235] send: history
+2022-02-24 22:22:59,632 DEBUG   SenderThread:4028877 [sender.py:send():235] send: summary
+2022-02-24 22:22:59,632 INFO    SenderThread:4028877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-24 22:23:00,208 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:23:00,208 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-summary.json
+2022-02-24 22:23:02,208 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:23:06,786 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:23:06,787 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:23:22,330 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:23:22,330 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:23:24,141 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:23:37,890 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:23:37,890 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:23:53,343 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-24 22:23:53,343 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: stop_status
+2022-02-24 22:23:54,314 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:23:55,629 WARNING MainThread:4028877 [internal.py:wandb_internal():152] Internal process interrupt: 1
+2022-02-24 22:23:58,221 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:23:58,595 DEBUG   SenderThread:4028877 [sender.py:send():235] send: telemetry
+2022-02-24 22:23:58,596 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:23:58,599 DEBUG   SenderThread:4028877 [sender.py:send():235] send: exit
+2022-02-24 22:23:58,600 INFO    SenderThread:4028877 [sender.py:send_exit():371] handling exit code: 255
+2022-02-24 22:23:58,600 INFO    SenderThread:4028877 [sender.py:send_exit():373] handling runtime: 334
+2022-02-24 22:23:58,601 INFO    SenderThread:4028877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-24 22:23:58,602 INFO    SenderThread:4028877 [sender.py:send_exit():379] send defer
+2022-02-24 22:23:58,602 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:23:58,603 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: defer
+2022-02-24 22:23:58,603 INFO    HandlerThread:4028877 [handler.py:handle_request_defer():154] handle defer: 0
+2022-02-24 22:23:58,604 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: defer
+2022-02-24 22:23:58,604 INFO    SenderThread:4028877 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-02-24 22:23:58,604 INFO    SenderThread:4028877 [sender.py:transition_state():392] send defer: 1
+2022-02-24 22:23:58,605 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: defer
+2022-02-24 22:23:58,605 INFO    HandlerThread:4028877 [handler.py:handle_request_defer():154] handle defer: 1
+2022-02-24 22:23:58,697 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: defer
+2022-02-24 22:23:58,697 INFO    SenderThread:4028877 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-02-24 22:23:58,697 INFO    SenderThread:4028877 [sender.py:transition_state():392] send defer: 2
+2022-02-24 22:23:58,698 DEBUG   SenderThread:4028877 [sender.py:send():235] send: stats
+2022-02-24 22:23:58,699 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: defer
+2022-02-24 22:23:58,699 INFO    HandlerThread:4028877 [handler.py:handle_request_defer():154] handle defer: 2
+2022-02-24 22:23:58,699 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: defer
+2022-02-24 22:23:58,700 INFO    SenderThread:4028877 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-02-24 22:23:58,700 INFO    SenderThread:4028877 [sender.py:transition_state():392] send defer: 3
+2022-02-24 22:23:58,700 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: defer
+2022-02-24 22:23:58,700 INFO    HandlerThread:4028877 [handler.py:handle_request_defer():154] handle defer: 3
+2022-02-24 22:23:58,701 DEBUG   SenderThread:4028877 [sender.py:send():235] send: summary
+2022-02-24 22:23:58,702 INFO    SenderThread:4028877 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-24 22:23:58,702 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: defer
+2022-02-24 22:23:58,702 INFO    SenderThread:4028877 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-02-24 22:23:58,702 INFO    SenderThread:4028877 [sender.py:transition_state():392] send defer: 4
+2022-02-24 22:23:58,703 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: defer
+2022-02-24 22:23:58,703 INFO    HandlerThread:4028877 [handler.py:handle_request_defer():154] handle defer: 4
+2022-02-24 22:23:58,703 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: defer
+2022-02-24 22:23:58,704 INFO    SenderThread:4028877 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-02-24 22:23:58,710 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:23:59,222 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:23:59,222 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-summary.json
+2022-02-24 22:23:59,255 INFO    SenderThread:4028877 [sender.py:transition_state():392] send defer: 5
+2022-02-24 22:23:59,256 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:23:59,257 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: defer
+2022-02-24 22:23:59,257 INFO    HandlerThread:4028877 [handler.py:handle_request_defer():154] handle defer: 5
+2022-02-24 22:23:59,258 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: defer
+2022-02-24 22:23:59,258 INFO    SenderThread:4028877 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-02-24 22:23:59,258 INFO    SenderThread:4028877 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-24 22:23:59,359 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:00,223 INFO    Thread-8  :4028877 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/config.yaml
+2022-02-24 22:24:00,224 INFO    SenderThread:4028877 [dir_watcher.py:finish():313] scan: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files
+2022-02-24 22:24:00,224 INFO    SenderThread:4028877 [dir_watcher.py:finish():327] scan save: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log output.log
+2022-02-24 22:24:00,225 INFO    SenderThread:4028877 [dir_watcher.py:finish():327] scan save: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-summary.json wandb-summary.json
+2022-02-24 22:24:00,235 INFO    SenderThread:4028877 [dir_watcher.py:finish():327] scan save: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/config.yaml config.yaml
+2022-02-24 22:24:00,236 INFO    SenderThread:4028877 [dir_watcher.py:finish():327] scan save: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/requirements.txt requirements.txt
+2022-02-24 22:24:00,236 INFO    SenderThread:4028877 [dir_watcher.py:finish():327] scan save: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-metadata.json wandb-metadata.json
+2022-02-24 22:24:00,237 INFO    SenderThread:4028877 [dir_watcher.py:finish():327] scan save: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/conda-environment.yaml conda-environment.yaml
+2022-02-24 22:24:00,237 INFO    SenderThread:4028877 [sender.py:transition_state():392] send defer: 6
+2022-02-24 22:24:00,238 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:00,245 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: defer
+2022-02-24 22:24:00,245 INFO    HandlerThread:4028877 [handler.py:handle_request_defer():154] handle defer: 6
+2022-02-24 22:24:00,271 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: defer
+2022-02-24 22:24:00,276 INFO    SenderThread:4028877 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-02-24 22:24:00,276 INFO    SenderThread:4028877 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-24 22:24:00,340 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:00,340 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:00,441 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:00,441 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:00,543 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:00,543 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:00,646 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:00,647 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:00,749 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:00,750 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:00,853 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:00,853 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:00,956 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:00,956 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:01,057 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:01,057 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:01,158 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:01,159 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:01,260 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:01,261 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:01,361 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:01,362 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:01,463 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:01,463 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:01,504 INFO    Thread-16 :4028877 [upload_job.py:push():137] Uploaded file /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/conda-environment.yaml
+2022-02-24 22:24:01,566 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:01,566 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:01,668 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:01,668 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:01,769 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:01,770 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:01,873 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:01,873 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:01,893 INFO    Thread-12 :4028877 [upload_job.py:push():137] Uploaded file /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/output.log
+2022-02-24 22:24:01,897 INFO    Thread-14 :4028877 [upload_job.py:push():137] Uploaded file /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/config.yaml
+2022-02-24 22:24:01,976 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:01,977 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:01,993 INFO    Thread-15 :4028877 [upload_job.py:push():137] Uploaded file /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/requirements.txt
+2022-02-24 22:24:02,079 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:02,079 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:02,180 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:02,180 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:02,281 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:02,281 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:02,383 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:02,384 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:02,487 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:02,487 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:02,590 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:02,590 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:02,693 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:02,693 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:02,795 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:02,795 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:02,898 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:02,899 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:03,002 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:03,002 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:03,105 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:03,105 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:03,136 INFO    Thread-13 :4028877 [upload_job.py:push():137] Uploaded file /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/files/wandb-summary.json
+2022-02-24 22:24:03,206 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:03,207 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:03,310 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:03,310 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:03,337 INFO    Thread-7  :4028877 [sender.py:transition_state():392] send defer: 7
+2022-02-24 22:24:03,338 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: defer
+2022-02-24 22:24:03,338 INFO    HandlerThread:4028877 [handler.py:handle_request_defer():154] handle defer: 7
+2022-02-24 22:24:03,339 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: defer
+2022-02-24 22:24:03,339 INFO    SenderThread:4028877 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-02-24 22:24:03,413 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:04,277 INFO    SenderThread:4028877 [sender.py:transition_state():392] send defer: 8
+2022-02-24 22:24:04,277 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:04,279 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: defer
+2022-02-24 22:24:04,279 INFO    HandlerThread:4028877 [handler.py:handle_request_defer():154] handle defer: 8
+2022-02-24 22:24:04,279 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: defer
+2022-02-24 22:24:04,280 INFO    SenderThread:4028877 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-02-24 22:24:04,280 INFO    SenderThread:4028877 [sender.py:transition_state():392] send defer: 9
+2022-02-24 22:24:04,281 DEBUG   SenderThread:4028877 [sender.py:send():235] send: final
+2022-02-24 22:24:04,282 DEBUG   SenderThread:4028877 [sender.py:send():235] send: footer
+2022-02-24 22:24:04,283 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: defer
+2022-02-24 22:24:04,283 INFO    HandlerThread:4028877 [handler.py:handle_request_defer():154] handle defer: 9
+2022-02-24 22:24:04,283 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: defer
+2022-02-24 22:24:04,284 INFO    SenderThread:4028877 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-02-24 22:24:04,381 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-24 22:24:04,381 DEBUG   SenderThread:4028877 [sender.py:send_request():249] send_request: poll_exit
+2022-02-24 22:24:04,382 INFO    SenderThread:4028877 [file_pusher.py:join():182] waiting for file pusher
+2022-02-24 22:24:05,649 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-24 22:24:05,651 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: sampled_history
+2022-02-24 22:24:05,654 DEBUG   HandlerThread:4028877 [handler.py:handle_request():131] handle_request: shutdown
+2022-02-24 22:24:05,654 INFO    HandlerThread:4028877 [handler.py:finish():739] shutting down handler
+2022-02-24 22:24:06,283 INFO    WriterThread:4028877 [datastore.py:close():281] close: /home/pxk/CBREN/wandb/run-20220224_221822-32wxj4nr/run-32wxj4nr.wandb
+2022-02-24 22:24:06,647 INFO    SenderThread:4028877 [sender.py:finish():1075] shutting down sender
+2022-02-24 22:24:06,647 INFO    SenderThread:4028877 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-24 22:24:06,647 INFO    SenderThread:4028877 [file_pusher.py:join():182] waiting for file pusher
+2022-02-24 22:24:06,651 INFO    MainThread:4028877 [internal.py:handle_exit():79] Internal process exited

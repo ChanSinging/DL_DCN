@@ -1,0 +1,12 @@
+Namespace(batchSize=32, cuda=True, dataset='datasets/', lr=0.0001, momentum=0.9, nEpochs=2000, resume='', start_epoch=1, step=1000, test_path='dataset/test/', threads=16, validate_path='datasets/validate/', weight_decay=0)
+===> Loading datasets
+Traceback (most recent call last):
+  File "train_psnr_indication.py", line 314, in <module>
+    main()
+  File "train_psnr_indication.py", line 128, in main
+    validate_set = get_validate_set()
+  File "/home/pxk/CBREN/dataset.py", line 26, in get_validate_set
+    return ValidDataset(dir=root_path)
+  File "/home/pxk/CBREN/dataset.py", line 198, in __init__
+    self.folder_list = sorted(listdir(self.target_path))  # list 是gt_frame下的文件夹
+FileNotFoundError: [Errno 2] No such file or directory: 'datasets/validate/gt_frame/'

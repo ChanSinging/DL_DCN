@@ -1,0 +1,217 @@
+Namespace(batchSize=16, cuda=True, dataset='datasets/', lr=0.0001, momentum=0.9, nEpochs=2500, resume='', start_epoch=1, step=1000, test_path='dataset/test/', threads=16, validate_path='datasets/validate/', weight_decay=0)
+===> Loading datasets
+===> Building model
+n_pyramids: 1 n_pyramid_cells: (3, 2, 1, 1, 1, 1)
+===> Setting GPU
+===> Setting Optimizer
+===> Training
+Epoch=1, lr=0.0001
+===> Epoch[1](1/11): Loss: 0.3533698022
+===> Epoch[1](2/11): Loss: 0.3909933269
+===> Epoch[1](3/11): Loss: 0.4608384967
+===> Epoch[1](4/11): Loss: 0.4605527818
+===> Epoch[1](5/11): Loss: 0.3638053834
+===> Epoch[1](6/11): Loss: 0.4314880371
+===> Epoch[1](7/11): Loss: 0.3048708439
+===> Epoch[1](8/11): Loss: 0.2925530672
+===> Epoch[1](9/11): Loss: 0.2994402647
+===> Epoch[1](10/11): Loss: 0.3646326065
+===> Epoch[1](11/11): Loss: 0.3064252138
+|||||||||||||||||||||min_epoch_loss is 0.3662699840|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:1--Avg-PSNR: 6.9796 dB
+-----max psnr model saved------
+Epoch=2, lr=0.0001
+===> Epoch[2](1/11): Loss: 0.2956743836
+===> Epoch[2](2/11): Loss: 0.3649327457
+===> Epoch[2](3/11): Loss: 0.3729057908
+===> Epoch[2](4/11): Loss: 0.2932945490
+===> Epoch[2](5/11): Loss: 0.2574520707
+===> Epoch[2](6/11): Loss: 0.2801424861
+===> Epoch[2](7/11): Loss: 0.2817973197
+===> Epoch[2](8/11): Loss: 0.2367479801
+===> Epoch[2](9/11): Loss: 0.2381186783
+===> Epoch[2](10/11): Loss: 0.1973670721
+===> Epoch[2](11/11): Loss: 0.1831474751
+|||||||||||||||||||||min_epoch_loss is 0.2728709592|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:2--Avg-PSNR: 13.6075 dB
+-----max psnr model saved------
+Epoch=3, lr=0.0001
+===> Epoch[3](1/11): Loss: 0.1727006435
+===> Epoch[3](2/11): Loss: 0.1671074033
+===> Epoch[3](3/11): Loss: 0.1465201825
+===> Epoch[3](4/11): Loss: 0.1322469115
+===> Epoch[3](5/11): Loss: 0.1364829987
+===> Epoch[3](6/11): Loss: 0.1214533448
+===> Epoch[3](7/11): Loss: 0.1473994851
+===> Epoch[3](8/11): Loss: 0.1435718834
+===> Epoch[3](9/11): Loss: 0.1297519803
+===> Epoch[3](10/11): Loss: 0.1394721419
+===> Epoch[3](11/11): Loss: 0.1432710737
+|||||||||||||||||||||min_epoch_loss is 0.1436343681|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:3--Avg-PSNR: 15.9701 dB
+-----max psnr model saved------
+Epoch=4, lr=0.0001
+===> Epoch[4](1/11): Loss: 0.1335584670
+===> Epoch[4](2/11): Loss: 0.1399798542
+===> Epoch[4](3/11): Loss: 0.1404437125
+===> Epoch[4](4/11): Loss: 0.1279433370
+===> Epoch[4](5/11): Loss: 0.1279690117
+===> Epoch[4](6/11): Loss: 0.1311254352
+===> Epoch[4](7/11): Loss: 0.1245260835
+===> Epoch[4](8/11): Loss: 0.1056683362
+===> Epoch[4](9/11): Loss: 0.1119502038
+===> Epoch[4](10/11): Loss: 0.1100971848
+===> Epoch[4](11/11): Loss: 0.1047555432
+|||||||||||||||||||||min_epoch_loss is 0.1234561063|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:4--Avg-PSNR: 17.6707 dB
+-----max psnr model saved------
+Epoch=5, lr=0.0001
+===> Epoch[5](1/11): Loss: 0.1073707789
+===> Epoch[5](2/11): Loss: 0.0995166004
+===> Epoch[5](3/11): Loss: 0.0917589068
+===> Epoch[5](4/11): Loss: 0.1434038132
+===> Epoch[5](5/11): Loss: 0.1185266674
+===> Epoch[5](6/11): Loss: 0.1036885232
+===> Epoch[5](7/11): Loss: 0.0900021717
+===> Epoch[5](8/11): Loss: 0.0935346037
+===> Epoch[5](9/11): Loss: 0.1046450734
+===> Epoch[5](10/11): Loss: 0.1252174675
+===> Epoch[5](11/11): Loss: 0.1106633991
+|||||||||||||||||||||min_epoch_loss is 0.1080298187|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:5--Avg-PSNR: 17.9442 dB
+-----max psnr model saved------
+Epoch=6, lr=0.0001
+===> Epoch[6](1/11): Loss: 0.1033304930
+===> Epoch[6](2/11): Loss: 0.0925098211
+===> Epoch[6](3/11): Loss: 0.0954632312
+===> Epoch[6](4/11): Loss: 0.1102632880
+===> Epoch[6](5/11): Loss: 0.0799010396
+===> Epoch[6](6/11): Loss: 0.0851173103
+===> Epoch[6](7/11): Loss: 0.0927108973
+===> Epoch[6](8/11): Loss: 0.0890074819
+===> Epoch[6](9/11): Loss: 0.0830789953
+===> Epoch[6](10/11): Loss: 0.0941844136
+===> Epoch[6](11/11): Loss: 0.1101850495
+|||||||||||||||||||||min_epoch_loss is 0.0941592746|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:6--Avg-PSNR: 18.0090 dB
+-----max psnr model saved------
+Epoch=7, lr=0.0001
+===> Epoch[7](1/11): Loss: 0.1107378826
+===> Epoch[7](2/11): Loss: 0.0857837424
+===> Epoch[7](3/11): Loss: 0.1045646220
+===> Epoch[7](4/11): Loss: 0.0820607767
+===> Epoch[7](5/11): Loss: 0.1054804549
+===> Epoch[7](6/11): Loss: 0.0919149071
+===> Epoch[7](7/11): Loss: 0.1009564251
+===> Epoch[7](8/11): Loss: 0.0883984566
+===> Epoch[7](9/11): Loss: 0.0842106193
+===> Epoch[7](10/11): Loss: 0.0800432935
+===> Epoch[7](11/11): Loss: 0.0918377861
+|||||||||||||||||||||min_epoch_loss is 0.0932717242|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:7--Avg-PSNR: 17.6905 dB
+-----max psnr model saved------
+Epoch=8, lr=0.0001
+===> Epoch[8](1/11): Loss: 0.0918338522
+===> Epoch[8](2/11): Loss: 0.0817046762
+===> Epoch[8](3/11): Loss: 0.0886058509
+===> Epoch[8](4/11): Loss: 0.0761268660
+===> Epoch[8](5/11): Loss: 0.0832560360
+===> Epoch[8](6/11): Loss: 0.1077781543
+===> Epoch[8](7/11): Loss: 0.0929184556
+===> Epoch[8](8/11): Loss: 0.0802674443
+===> Epoch[8](9/11): Loss: 0.0982768387
+===> Epoch[8](10/11): Loss: 0.0855628252
+===> Epoch[8](11/11): Loss: 0.0881464109
+|||||||||||||||||||||min_epoch_loss is 0.0885888555|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:8--Avg-PSNR: 18.2360 dB
+-----max psnr model saved------
+Epoch=9, lr=0.0001
+===> Epoch[9](1/11): Loss: 0.0835280418
+===> Epoch[9](2/11): Loss: 0.0845275968
+===> Epoch[9](3/11): Loss: 0.0870668292
+===> Epoch[9](4/11): Loss: 0.0803390890
+===> Epoch[9](5/11): Loss: 0.1163948178
+===> Epoch[9](6/11): Loss: 0.0866158903
+===> Epoch[9](7/11): Loss: 0.0759679228
+===> Epoch[9](8/11): Loss: 0.0862657875
+===> Epoch[9](9/11): Loss: 0.1027367115
+===> Epoch[9](10/11): Loss: 0.0814474747
+===> Epoch[9](11/11): Loss: 0.0910323560
+epoch_avr_loss is 0.0887202289
+----Start Validate----
+---validate-->This-epoch:9--Avg-PSNR: 17.8808 dB
+-----max psnr model saved------
+Epoch=10, lr=0.0001
+===> Epoch[10](1/11): Loss: 0.1073696166
+===> Epoch[10](2/11): Loss: 0.0842246413
+===> Epoch[10](3/11): Loss: 0.0945802853
+===> Epoch[10](4/11): Loss: 0.0956537873
+===> Epoch[10](5/11): Loss: 0.0940723866
+===> Epoch[10](6/11): Loss: 0.0711458623
+===> Epoch[10](7/11): Loss: 0.0785565674
+===> Epoch[10](8/11): Loss: 0.0757473931
+===> Epoch[10](9/11): Loss: 0.0854915977
+===> Epoch[10](10/11): Loss: 0.0650784448
+===> Epoch[10](11/11): Loss: 0.0846686587
+|||||||||||||||||||||min_epoch_loss is 0.0851444765|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:10--Avg-PSNR: 18.1447 dB
+-----max psnr model saved------
+Epoch=11, lr=0.0001
+===> Epoch[11](1/11): Loss: 0.0832477659
+===> Epoch[11](2/11): Loss: 0.0600617826
+===> Epoch[11](3/11): Loss: 0.0769869834
+===> Epoch[11](4/11): Loss: 0.0903137922
+===> Epoch[11](5/11): Loss: 0.0748140737
+===> Epoch[11](6/11): Loss: 0.0787556395
+===> Epoch[11](7/11): Loss: 0.0869627744
+===> Epoch[11](8/11): Loss: 0.0630881935
+===> Epoch[11](9/11): Loss: 0.0816949233
+===> Epoch[11](10/11): Loss: 0.0733440146
+===> Epoch[11](11/11): Loss: 0.1047375649
+|||||||||||||||||||||min_epoch_loss is 0.0794552280|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:11--Avg-PSNR: 18.2362 dB
+-----max psnr model saved------
+Epoch=12, lr=0.0001
+===> Epoch[12](1/11): Loss: 0.0775618553
+===> Epoch[12](2/11): Loss: 0.0901574492
+===> Epoch[12](3/11): Loss: 0.0954816639
+===> Epoch[12](4/11): Loss: 0.0642006546
+===> Epoch[12](5/11): Loss: 0.0830745250
+===> Epoch[12](6/11): Loss: 0.0488987863
+===> Epoch[12](7/11): Loss: 0.0949837714
+===> Epoch[12](8/11): Loss: 0.0659152269
+===> Epoch[12](9/11): Loss: 0.0772173852
+===> Epoch[12](10/11): Loss: 0.0826833099
+===> Epoch[12](11/11): Loss: 0.0693494752
+|||||||||||||||||||||min_epoch_loss is 0.0772294639|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:12--Avg-PSNR: 18.5488 dB
+-----max psnr model saved------
+Epoch=13, lr=0.0001
+===> Epoch[13](1/11): Loss: 0.1126236543
+===> Epoch[13](2/11): Loss: 0.0773350298
+===> Epoch[13](3/11): Loss: 0.0693654716
+===> Epoch[13](4/11): Loss: 0.0838551968
+===> Epoch[13](5/11): Loss: 0.0701492578
+Traceback (most recent call last):
+  File "train_psnr_indication.py", line 347, in <module>
+    main()
+  File "train_psnr_indication.py", line 163, in main
+    train(training_data_loader, optimizer, model, criterion, epoch)
+  File "train_psnr_indication.py", line 240, in train
+    loss.backward()
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+KeyboardInterrupt

@@ -1,0 +1,181 @@
+2022-02-25 22:12:45,783 INFO    MainThread:265088 [internal.py:wandb_internal():92] W&B internal server running at pid: 265088, started at: 2022-02-25 22:12:45.783639
+2022-02-25 22:12:45,784 DEBUG   HandlerThread:265088 [handler.py:handle_request():131] handle_request: check_version
+2022-02-25 22:12:45,785 INFO    WriterThread:265088 [datastore.py:open_for_write():77] open: /home/pxk/CBREN/wandb/run-20220225_221245-3fg6qzs1/run-3fg6qzs1.wandb
+2022-02-25 22:12:45,785 DEBUG   SenderThread:265088 [sender.py:send():235] send: header
+2022-02-25 22:12:45,785 DEBUG   SenderThread:265088 [sender.py:send_request():249] send_request: check_version
+2022-02-25 22:12:50,786 DEBUG   SenderThread:265088 [sender.py:send():235] send: run
+2022-02-25 22:12:53,888 WARNING MainThread:265088 [internal.py:wandb_internal():152] Internal process interrupt: 1
+2022-02-25 22:13:15,815 ERROR   SenderThread:265088 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f222c0bd110>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/adapters.py", line 450, in send
+    timeout=timeout
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f222c0bd110>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f222c0bd110>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2022-02-25 22:14:03,318 WARNING MainThread:265088 [internal.py:wandb_internal():152] Internal process interrupt: 2
+2022-02-25 22:14:03,318 ERROR   MainThread:265088 [internal.py:wandb_internal():155] Internal process interrupted.
+2022-02-25 22:14:03,431 INFO    WriterThread:265088 [datastore.py:close():281] close: /home/pxk/CBREN/wandb/run-20220225_221245-3fg6qzs1/run-3fg6qzs1.wandb
+2022-02-25 22:14:03,500 INFO    HandlerThread:265088 [handler.py:finish():739] shutting down handler
+2022-03-04 22:16:13,641 ERROR   MainThread:265088 [internal.py:wandb_internal():164] Thread SenderThread:
+Traceback (most recent call last):
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f222c0bd310>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/adapters.py", line 450, in send
+    timeout=timeout
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f222c0bd310>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 1296, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f222c0bd310>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/internal/internal_util.py", line 54, in run
+    self._run()
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/internal/internal_util.py", line 105, in _run
+    self._process(record)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/internal/internal.py", line 305, in _process
+    self._sm.send(record)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 237, in send
+    send_handler(record)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 692, in send_run
+    self._init_run(run, config_value_dict)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 730, in _init_run
+    commit=run.git.last_commit or None,
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    six.reraise(CommError, CommError(message, err), sys.exc_info()[2])
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 1296, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+wandb.errors.CommError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f222c0bd310>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2022-03-04 22:16:13,671 INFO    MainThread:265088 [internal.py:handle_exit():79] Internal process exited

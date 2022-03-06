@@ -1,0 +1,42 @@
+Namespace(batchSize=32, cuda=True, dataset='datasets/', lr=0.0001, momentum=0.9, nEpochs=2000, resume='', start_epoch=1, step=1000, test_path='dataset/test/', threads=16, validate_path='datasets/validate/', weight_decay=0)
+===> Loading datasets
+===> Building model
+n_pyramids: 1 n_pyramid_cells: (3, 2, 1, 1, 1, 1)
+===> Setting GPU
+===> Setting Optimizer
+===> Training
+Epoch=1, lr=0.0001
+Traceback (most recent call last):
+  File "train_psnr_indication.py", line 314, in <module>
+    main()
+  File "train_psnr_indication.py", line 161, in main
+    train(training_data_loader, optimizer, model, criterion, epoch)
+  File "train_psnr_indication.py", line 210, in train
+    out = model(input)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/CBREN/model.py", line 632, in forward
+    t_x1 = self.dual_domain_blocks_x1(t_x1)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/CBREN/model.py", line 452, in forward
+    _tp = self.pixel_restoration(_t)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/CBREN/model.py", line 108, in forward
+    output = self.conv(x)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 399, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/pxk/anaconda3/envs/cxy/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 396, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA out of memory. Tried to allocate 72.00 MiB (GPU 0; 23.70 GiB total capacity; 21.72 GiB already allocated; 35.25 MiB free; 21.83 GiB reserved in total by PyTorch)

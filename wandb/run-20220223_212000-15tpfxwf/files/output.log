@@ -1,0 +1,612 @@
+Namespace(batchSize=16, cuda=True, dataset='datasets/', lr=0.0001, momentum=0.9, nEpochs=5000, resume='', start_epoch=1, step=1000, test_path='dataset/test/', threads=16, validate_path='datasets/validate/', weight_decay=0)
+===> Loading datasets
+===> Building model
+n_pyramids: 1 n_pyramid_cells: (3, 2, 1, 1, 1, 1)
+===> Setting GPU
+===> Setting Optimizer
+===> Training
+Epoch=1, lr=0.0001
+===> Epoch[1](1/11): Loss: 0.4321713150
+===> Epoch[1](2/11): Loss: 0.3656984270
+===> Epoch[1](3/11): Loss: 0.3231044710
+===> Epoch[1](4/11): Loss: 0.3225547075
+===> Epoch[1](5/11): Loss: 0.2175199240
+===> Epoch[1](6/11): Loss: 0.3803048134
+===> Epoch[1](7/11): Loss: 0.3214059770
+===> Epoch[1](8/11): Loss: 0.3793168962
+===> Epoch[1](9/11): Loss: 0.3964511752
+===> Epoch[1](10/11): Loss: 0.3183627725
+===> Epoch[1](11/11): Loss: 0.2388381958
+|||||||||||||||||||||min_epoch_loss is 0.3359753340|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:1--Avg-PSNR: 6.4964 dB
+||||||||||||||||best psnr is [6.49641]|||||||||||||||
+psnr_valid:[6.496410],last_psnr_avr_1:[0.000000],last_psnr_avr_2:[0.000000],last_psnr_avr_3:[0.000000],last_psnr_avr_4:[0.000000],last_psnr_avr_5:[0.000000]
+-----best psnr model saved------
+Epoch=2, lr=0.0001
+===> Epoch[2](1/11): Loss: 0.4069332778
+===> Epoch[2](2/11): Loss: 0.3245083988
+===> Epoch[2](3/11): Loss: 0.3284088969
+===> Epoch[2](4/11): Loss: 0.3560434282
+===> Epoch[2](5/11): Loss: 0.2496504486
+===> Epoch[2](6/11): Loss: 0.2793599963
+===> Epoch[2](7/11): Loss: 0.2098718882
+===> Epoch[2](8/11): Loss: 0.2791574299
+===> Epoch[2](9/11): Loss: 0.2497774810
+===> Epoch[2](10/11): Loss: 0.2608057261
+===> Epoch[2](11/11): Loss: 0.2495794892
+|||||||||||||||||||||min_epoch_loss is 0.2903724055|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:2--Avg-PSNR: 8.6693 dB
+||||||||||||||||best psnr is [8.66927]|||||||||||||||
+psnr_valid:[8.669267],last_psnr_avr_1:[6.496410],last_psnr_avr_2:[0.000000],last_psnr_avr_3:[0.000000],last_psnr_avr_4:[0.000000],last_psnr_avr_5:[0.000000]
+-----best psnr model saved------
+Epoch=3, lr=0.0001
+===> Epoch[3](1/11): Loss: 0.2089919895
+===> Epoch[3](2/11): Loss: 0.2726671398
+===> Epoch[3](3/11): Loss: 0.2398402095
+===> Epoch[3](4/11): Loss: 0.1961241812
+===> Epoch[3](5/11): Loss: 0.2139630765
+===> Epoch[3](6/11): Loss: 0.2478990406
+===> Epoch[3](7/11): Loss: 0.2240422964
+===> Epoch[3](8/11): Loss: 0.1733297706
+===> Epoch[3](9/11): Loss: 0.2114348114
+===> Epoch[3](10/11): Loss: 0.2070574015
+===> Epoch[3](11/11): Loss: 0.1893967390
+|||||||||||||||||||||min_epoch_loss is 0.2167951505|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:3--Avg-PSNR: 8.9896 dB
+||||||||||||||||best psnr is [8.98958]|||||||||||||||
+psnr_valid:[8.989583],last_psnr_avr_1:[8.669267],last_psnr_avr_2:[6.496410],last_psnr_avr_3:[0.000000],last_psnr_avr_4:[0.000000],last_psnr_avr_5:[0.000000]
+-----best psnr model saved------
+Epoch=4, lr=0.0001
+===> Epoch[4](1/11): Loss: 0.2028775811
+===> Epoch[4](2/11): Loss: 0.1947701573
+===> Epoch[4](3/11): Loss: 0.2000354528
+===> Epoch[4](4/11): Loss: 0.2352245897
+===> Epoch[4](5/11): Loss: 0.1898596734
+===> Epoch[4](6/11): Loss: 0.2160514593
+===> Epoch[4](7/11): Loss: 0.1689166427
+===> Epoch[4](8/11): Loss: 0.1521163583
+===> Epoch[4](9/11): Loss: 0.1465207040
+===> Epoch[4](10/11): Loss: 0.1438068599
+===> Epoch[4](11/11): Loss: 0.1130039915
+|||||||||||||||||||||min_epoch_loss is 0.1784712246|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:4--Avg-PSNR: 17.1557 dB
+||||||||||||||||best psnr is [17.15573]|||||||||||||||
+psnr_valid:[17.155725],last_psnr_avr_1:[8.989583],last_psnr_avr_2:[8.669267],last_psnr_avr_3:[6.496410],last_psnr_avr_4:[0.000000],last_psnr_avr_5:[0.000000]
+-----best psnr model saved------
+Epoch=5, lr=0.0001
+===> Epoch[5](1/11): Loss: 0.0926529169
+===> Epoch[5](2/11): Loss: 0.1211476326
+===> Epoch[5](3/11): Loss: 0.1159092635
+===> Epoch[5](4/11): Loss: 0.1425027549
+===> Epoch[5](5/11): Loss: 0.0973742232
+===> Epoch[5](6/11): Loss: 0.1181707531
+===> Epoch[5](7/11): Loss: 0.0896665305
+===> Epoch[5](8/11): Loss: 0.1009180844
+===> Epoch[5](9/11): Loss: 0.1069077849
+===> Epoch[5](10/11): Loss: 0.1115697026
+===> Epoch[5](11/11): Loss: 0.0953131616
+|||||||||||||||||||||min_epoch_loss is 0.1083757098|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:5--Avg-PSNR: 17.4235 dB
+||||||||||||||||best psnr is [17.42347]|||||||||||||||
+psnr_valid:[17.423471],last_psnr_avr_1:[17.155725],last_psnr_avr_2:[8.989583],last_psnr_avr_3:[8.669267],last_psnr_avr_4:[6.496410],last_psnr_avr_5:[0.000000]
+-----best psnr model saved------
+Epoch=6, lr=0.0001
+===> Epoch[6](1/11): Loss: 0.1065988988
+===> Epoch[6](2/11): Loss: 0.1093655080
+===> Epoch[6](3/11): Loss: 0.1213707924
+===> Epoch[6](4/11): Loss: 0.1081330925
+===> Epoch[6](5/11): Loss: 0.1028466225
+===> Epoch[6](6/11): Loss: 0.0952654034
+===> Epoch[6](7/11): Loss: 0.1078943312
+===> Epoch[6](8/11): Loss: 0.1059987694
+===> Epoch[6](9/11): Loss: 0.0849132836
+===> Epoch[6](10/11): Loss: 0.0911819339
+===> Epoch[6](11/11): Loss: 0.0862890705
+|||||||||||||||||||||min_epoch_loss is 0.1018052460|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:6--Avg-PSNR: 17.9545 dB
+||||||||||||||||best psnr is [17.95449]|||||||||||||||
+psnr_valid:[17.954487],last_psnr_avr_1:[17.423471],last_psnr_avr_2:[17.155725],last_psnr_avr_3:[8.989583],last_psnr_avr_4:[8.669267],last_psnr_avr_5:[6.496410]
+-----best psnr model saved------
+Epoch=7, lr=0.0001
+===> Epoch[7](1/11): Loss: 0.0904183835
+===> Epoch[7](2/11): Loss: 0.0909634829
+===> Epoch[7](3/11): Loss: 0.0953757018
+===> Epoch[7](4/11): Loss: 0.1055888757
+===> Epoch[7](5/11): Loss: 0.0803580806
+===> Epoch[7](6/11): Loss: 0.1006713212
+===> Epoch[7](7/11): Loss: 0.1004253626
+===> Epoch[7](8/11): Loss: 0.0950236917
+===> Epoch[7](9/11): Loss: 0.0938599706
+===> Epoch[7](10/11): Loss: 0.0922214687
+===> Epoch[7](11/11): Loss: 0.0947100148
+|||||||||||||||||||||min_epoch_loss is 0.0945105776|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:7--Avg-PSNR: 17.5955 dB
+psnr_valid:[17.595524],last_psnr_avr_1:[17.954487],last_psnr_avr_2:[17.423471],last_psnr_avr_3:[17.155725],last_psnr_avr_4:[8.989583],last_psnr_avr_5:[8.669267]
+Epoch=8, lr=0.0001
+===> Epoch[8](1/11): Loss: 0.0939776599
+===> Epoch[8](2/11): Loss: 0.1055121347
+===> Epoch[8](3/11): Loss: 0.0783658996
+===> Epoch[8](4/11): Loss: 0.0894692466
+===> Epoch[8](5/11): Loss: 0.0983044505
+===> Epoch[8](6/11): Loss: 0.0968557820
+===> Epoch[8](7/11): Loss: 0.1114695072
+===> Epoch[8](8/11): Loss: 0.0699942335
+===> Epoch[8](9/11): Loss: 0.0961340070
+===> Epoch[8](10/11): Loss: 0.0933050960
+===> Epoch[8](11/11): Loss: 0.0734840780
+|||||||||||||||||||||min_epoch_loss is 0.0915338268|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:8--Avg-PSNR: 18.4019 dB
+||||||||||||||||best psnr is [18.40186]|||||||||||||||
+psnr_valid:[18.401859],last_psnr_avr_1:[17.595524],last_psnr_avr_2:[17.954487],last_psnr_avr_3:[17.423471],last_psnr_avr_4:[17.155725],last_psnr_avr_5:[8.989583]
+-----best psnr model saved------
+Epoch=9, lr=0.0001
+===> Epoch[9](1/11): Loss: 0.0963518247
+===> Epoch[9](2/11): Loss: 0.0831548497
+===> Epoch[9](3/11): Loss: 0.0764284283
+===> Epoch[9](4/11): Loss: 0.0749665052
+===> Epoch[9](5/11): Loss: 0.0863643736
+===> Epoch[9](6/11): Loss: 0.0972616225
+===> Epoch[9](7/11): Loss: 0.0837721527
+===> Epoch[9](8/11): Loss: 0.0811658502
+===> Epoch[9](9/11): Loss: 0.0771570802
+===> Epoch[9](10/11): Loss: 0.0712203383
+===> Epoch[9](11/11): Loss: 0.0771285370
+|||||||||||||||||||||min_epoch_loss is 0.0822701420|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:9--Avg-PSNR: 18.2361 dB
+psnr_valid:[18.236149],last_psnr_avr_1:[18.401859],last_psnr_avr_2:[17.595524],last_psnr_avr_3:[17.954487],last_psnr_avr_4:[17.423471],last_psnr_avr_5:[17.155725]
+Epoch=10, lr=0.0001
+===> Epoch[10](1/11): Loss: 0.0906736106
+===> Epoch[10](2/11): Loss: 0.0821895227
+===> Epoch[10](3/11): Loss: 0.0969301090
+===> Epoch[10](4/11): Loss: 0.0734102279
+===> Epoch[10](5/11): Loss: 0.0665424317
+===> Epoch[10](6/11): Loss: 0.0795337856
+===> Epoch[10](7/11): Loss: 0.0928551778
+===> Epoch[10](8/11): Loss: 0.0881907940
+===> Epoch[10](9/11): Loss: 0.0589723587
+===> Epoch[10](10/11): Loss: 0.0937445685
+===> Epoch[10](11/11): Loss: 0.1005074382
+epoch_avr_loss is 0.083959
+----Start Validate----
+---validate-->This-epoch:10--Avg-PSNR: 18.2547 dB
+psnr_valid:[18.254694],last_psnr_avr_1:[18.236149],last_psnr_avr_2:[18.401859],last_psnr_avr_3:[17.595524],last_psnr_avr_4:[17.954487],last_psnr_avr_5:[17.423471]
+Epoch=11, lr=0.0001
+===> Epoch[11](1/11): Loss: 0.0669900775
+===> Epoch[11](2/11): Loss: 0.0759903938
+===> Epoch[11](3/11): Loss: 0.0833909065
+===> Epoch[11](4/11): Loss: 0.0780901462
+===> Epoch[11](5/11): Loss: 0.0824310109
+===> Epoch[11](6/11): Loss: 0.0759738982
+===> Epoch[11](7/11): Loss: 0.0731295869
+===> Epoch[11](8/11): Loss: 0.0650304705
+===> Epoch[11](9/11): Loss: 0.0827114731
+===> Epoch[11](10/11): Loss: 0.0627997965
+===> Epoch[11](11/11): Loss: 0.0717588365
+|||||||||||||||||||||min_epoch_loss is 0.0743905997|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:11--Avg-PSNR: 18.6306 dB
+||||||||||||||||best psnr is [18.63056]|||||||||||||||
+psnr_valid:[18.630564],last_psnr_avr_1:[18.254694],last_psnr_avr_2:[18.236149],last_psnr_avr_3:[18.401859],last_psnr_avr_4:[17.595524],last_psnr_avr_5:[17.954487]
+-----best psnr model saved------
+Epoch=12, lr=0.0001
+===> Epoch[12](1/11): Loss: 0.0843461007
+===> Epoch[12](2/11): Loss: 0.0671832860
+===> Epoch[12](3/11): Loss: 0.0628419220
+===> Epoch[12](4/11): Loss: 0.0722654164
+===> Epoch[12](5/11): Loss: 0.0571706221
+===> Epoch[12](6/11): Loss: 0.0602540076
+===> Epoch[12](7/11): Loss: 0.0766681731
+===> Epoch[12](8/11): Loss: 0.0619117618
+===> Epoch[12](9/11): Loss: 0.0697742254
+===> Epoch[12](10/11): Loss: 0.0867416784
+===> Epoch[12](11/11): Loss: 0.0683367848
+|||||||||||||||||||||min_epoch_loss is 0.0697721798|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:12--Avg-PSNR: 17.8425 dB
+psnr_valid:[17.842472],last_psnr_avr_1:[18.630564],last_psnr_avr_2:[18.254694],last_psnr_avr_3:[18.236149],last_psnr_avr_4:[18.401859],last_psnr_avr_5:[17.595524]
+Epoch=13, lr=0.0001
+===> Epoch[13](1/11): Loss: 0.0700962171
+===> Epoch[13](2/11): Loss: 0.0697716996
+===> Epoch[13](3/11): Loss: 0.0832597688
+===> Epoch[13](4/11): Loss: 0.0670911819
+===> Epoch[13](5/11): Loss: 0.0792691112
+===> Epoch[13](6/11): Loss: 0.0650794730
+===> Epoch[13](7/11): Loss: 0.0727913082
+===> Epoch[13](8/11): Loss: 0.0841183811
+===> Epoch[13](9/11): Loss: 0.0767692178
+===> Epoch[13](10/11): Loss: 0.0783328563
+===> Epoch[13](11/11): Loss: 0.0664711595
+epoch_avr_loss is 0.073914
+----Start Validate----
+---validate-->This-epoch:13--Avg-PSNR: 17.6850 dB
+psnr_valid:[17.684958],last_psnr_avr_1:[17.842472],last_psnr_avr_2:[18.630564],last_psnr_avr_3:[18.254694],last_psnr_avr_4:[18.236149],last_psnr_avr_5:[18.401859]
+Epoch=14, lr=0.0001
+===> Epoch[14](1/11): Loss: 0.0784888268
+===> Epoch[14](2/11): Loss: 0.0690146089
+===> Epoch[14](3/11): Loss: 0.0590113848
+===> Epoch[14](4/11): Loss: 0.0860607624
+===> Epoch[14](5/11): Loss: 0.0665372759
+===> Epoch[14](6/11): Loss: 0.0833149850
+===> Epoch[14](7/11): Loss: 0.0787253380
+===> Epoch[14](8/11): Loss: 0.0897708088
+===> Epoch[14](9/11): Loss: 0.0800931379
+===> Epoch[14](10/11): Loss: 0.0814279467
+===> Epoch[14](11/11): Loss: 0.0789731294
+epoch_avr_loss is 0.077402
+----Start Validate----
+---validate-->This-epoch:14--Avg-PSNR: 17.1314 dB
+psnr_valid:[17.131416],last_psnr_avr_1:[17.684958],last_psnr_avr_2:[17.842472],last_psnr_avr_3:[18.630564],last_psnr_avr_4:[18.254694],last_psnr_avr_5:[18.236149]
+Epoch=15, lr=0.0001
+===> Epoch[15](1/11): Loss: 0.0757209286
+===> Epoch[15](2/11): Loss: 0.0810856000
+===> Epoch[15](3/11): Loss: 0.0655183941
+===> Epoch[15](4/11): Loss: 0.0865717381
+===> Epoch[15](5/11): Loss: 0.0707261264
+===> Epoch[15](6/11): Loss: 0.0682049170
+===> Epoch[15](7/11): Loss: 0.0786504447
+===> Epoch[15](8/11): Loss: 0.0873307809
+===> Epoch[15](9/11): Loss: 0.0854772329
+===> Epoch[15](10/11): Loss: 0.0657214820
+===> Epoch[15](11/11): Loss: 0.0853390619
+epoch_avr_loss is 0.077304
+----Start Validate----
+---validate-->This-epoch:15--Avg-PSNR: 19.1670 dB
+||||||||||||||||best psnr is [19.16700]|||||||||||||||
+psnr_valid:[19.167002],last_psnr_avr_1:[17.131416],last_psnr_avr_2:[17.684958],last_psnr_avr_3:[17.842472],last_psnr_avr_4:[18.630564],last_psnr_avr_5:[18.254694]
+-----best psnr model saved------
+Epoch=16, lr=0.0001
+===> Epoch[16](1/11): Loss: 0.0647090822
+===> Epoch[16](2/11): Loss: 0.0582979321
+===> Epoch[16](3/11): Loss: 0.0750086233
+===> Epoch[16](4/11): Loss: 0.0799901187
+===> Epoch[16](5/11): Loss: 0.0693504438
+===> Epoch[16](6/11): Loss: 0.0676598474
+===> Epoch[16](7/11): Loss: 0.0695074499
+===> Epoch[16](8/11): Loss: 0.0632836372
+===> Epoch[16](9/11): Loss: 0.0760651976
+===> Epoch[16](10/11): Loss: 0.0664778203
+===> Epoch[16](11/11): Loss: 0.0627390221
+|||||||||||||||||||||min_epoch_loss is 0.0684626522|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:16--Avg-PSNR: 19.2101 dB
+||||||||||||||||best psnr is [19.21011]|||||||||||||||
+psnr_valid:[19.210108],last_psnr_avr_1:[19.167002],last_psnr_avr_2:[17.131416],last_psnr_avr_3:[17.684958],last_psnr_avr_4:[17.842472],last_psnr_avr_5:[18.630564]
+-----best psnr model saved------
+Epoch=17, lr=0.0001
+===> Epoch[17](1/11): Loss: 0.0671065301
+===> Epoch[17](2/11): Loss: 0.0661132783
+===> Epoch[17](3/11): Loss: 0.0659200549
+===> Epoch[17](4/11): Loss: 0.0736651570
+===> Epoch[17](5/11): Loss: 0.0569105558
+===> Epoch[17](6/11): Loss: 0.0595663004
+===> Epoch[17](7/11): Loss: 0.0736696199
+===> Epoch[17](8/11): Loss: 0.0845563412
+===> Epoch[17](9/11): Loss: 0.0751194060
+===> Epoch[17](10/11): Loss: 0.0634163171
+===> Epoch[17](11/11): Loss: 0.0613846108
+|||||||||||||||||||||min_epoch_loss is 0.0679480156|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:17--Avg-PSNR: 19.2932 dB
+||||||||||||||||best psnr is [19.29322]|||||||||||||||
+psnr_valid:[19.293222],last_psnr_avr_1:[19.210108],last_psnr_avr_2:[19.167002],last_psnr_avr_3:[17.131416],last_psnr_avr_4:[17.684958],last_psnr_avr_5:[17.842472]
+-----best psnr model saved------
+Epoch=18, lr=0.0001
+===> Epoch[18](1/11): Loss: 0.0643606707
+===> Epoch[18](2/11): Loss: 0.0632803738
+===> Epoch[18](3/11): Loss: 0.0655672103
+===> Epoch[18](4/11): Loss: 0.0562386923
+===> Epoch[18](5/11): Loss: 0.0622474365
+===> Epoch[18](6/11): Loss: 0.0728396028
+===> Epoch[18](7/11): Loss: 0.0611577593
+===> Epoch[18](8/11): Loss: 0.0893343985
+===> Epoch[18](9/11): Loss: 0.0650304407
+===> Epoch[18](10/11): Loss: 0.0709277987
+===> Epoch[18](11/11): Loss: 0.0727048218
+|||||||||||||||||||||min_epoch_loss is 0.0676081096|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:18--Avg-PSNR: 18.2804 dB
+psnr_valid:[18.280375],last_psnr_avr_1:[19.293222],last_psnr_avr_2:[19.210108],last_psnr_avr_3:[19.167002],last_psnr_avr_4:[17.131416],last_psnr_avr_5:[17.684958]
+Epoch=19, lr=0.0001
+===> Epoch[19](1/11): Loss: 0.0699289888
+===> Epoch[19](2/11): Loss: 0.0744036883
+===> Epoch[19](3/11): Loss: 0.0775610209
+===> Epoch[19](4/11): Loss: 0.0523040891
+===> Epoch[19](5/11): Loss: 0.0684867203
+===> Epoch[19](6/11): Loss: 0.0803745016
+===> Epoch[19](7/11): Loss: 0.0734684467
+===> Epoch[19](8/11): Loss: 0.0719182938
+===> Epoch[19](9/11): Loss: 0.0515759811
+===> Epoch[19](10/11): Loss: 0.0682467073
+===> Epoch[19](11/11): Loss: 0.0782528967
+epoch_avr_loss is 0.069684
+----Start Validate----
+---validate-->This-epoch:19--Avg-PSNR: 19.3006 dB
+||||||||||||||||best psnr is [19.30063]|||||||||||||||
+psnr_valid:[19.300631],last_psnr_avr_1:[18.280375],last_psnr_avr_2:[19.293222],last_psnr_avr_3:[19.210108],last_psnr_avr_4:[19.167002],last_psnr_avr_5:[17.131416]
+-----best psnr model saved------
+Epoch=20, lr=0.0001
+===> Epoch[20](1/11): Loss: 0.0716131181
+===> Epoch[20](2/11): Loss: 0.0683066770
+===> Epoch[20](3/11): Loss: 0.0658768192
+===> Epoch[20](4/11): Loss: 0.0684318542
+===> Epoch[20](5/11): Loss: 0.0559524074
+===> Epoch[20](6/11): Loss: 0.0694990605
+===> Epoch[20](7/11): Loss: 0.0619059131
+===> Epoch[20](8/11): Loss: 0.0742133409
+===> Epoch[20](9/11): Loss: 0.0848148987
+===> Epoch[20](10/11): Loss: 0.0747310147
+===> Epoch[20](11/11): Loss: 0.0636478215
+epoch_avr_loss is 0.068999
+----Start Validate----
+---validate-->This-epoch:20--Avg-PSNR: 19.4612 dB
+||||||||||||||||best psnr is [19.46117]|||||||||||||||
+psnr_valid:[19.461170],last_psnr_avr_1:[19.300631],last_psnr_avr_2:[18.280375],last_psnr_avr_3:[19.293222],last_psnr_avr_4:[19.210108],last_psnr_avr_5:[19.167002]
+-----best psnr model saved------
+Epoch=21, lr=0.0001
+===> Epoch[21](1/11): Loss: 0.0769048259
+===> Epoch[21](2/11): Loss: 0.0497741178
+===> Epoch[21](3/11): Loss: 0.0676136091
+===> Epoch[21](4/11): Loss: 0.0642288625
+===> Epoch[21](5/11): Loss: 0.0571471602
+===> Epoch[21](6/11): Loss: 0.0568120405
+===> Epoch[21](7/11): Loss: 0.0551625155
+===> Epoch[21](8/11): Loss: 0.0710788071
+===> Epoch[21](9/11): Loss: 0.0654174536
+===> Epoch[21](10/11): Loss: 0.0634898022
+===> Epoch[21](11/11): Loss: 0.0653322339
+|||||||||||||||||||||min_epoch_loss is 0.0629964935|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:21--Avg-PSNR: 19.4607 dB
+psnr_valid:[19.460747],last_psnr_avr_1:[19.461170],last_psnr_avr_2:[19.300631],last_psnr_avr_3:[18.280375],last_psnr_avr_4:[19.293222],last_psnr_avr_5:[19.210108]
+Epoch=22, lr=0.0001
+===> Epoch[22](1/11): Loss: 0.0573053285
+===> Epoch[22](2/11): Loss: 0.0629133508
+===> Epoch[22](3/11): Loss: 0.0612016618
+===> Epoch[22](4/11): Loss: 0.0712757707
+===> Epoch[22](5/11): Loss: 0.0583549589
+===> Epoch[22](6/11): Loss: 0.0770003647
+===> Epoch[22](7/11): Loss: 0.0504923873
+===> Epoch[22](8/11): Loss: 0.0773184896
+===> Epoch[22](9/11): Loss: 0.0640772581
+===> Epoch[22](10/11): Loss: 0.0829020292
+===> Epoch[22](11/11): Loss: 0.0572860092
+epoch_avr_loss is 0.065466
+----Start Validate----
+---validate-->This-epoch:22--Avg-PSNR: 18.7205 dB
+psnr_valid:[18.720457],last_psnr_avr_1:[19.460747],last_psnr_avr_2:[19.461170],last_psnr_avr_3:[19.300631],last_psnr_avr_4:[18.280375],last_psnr_avr_5:[19.293222]
+Epoch=23, lr=0.0001
+===> Epoch[23](1/11): Loss: 0.0545364581
+===> Epoch[23](2/11): Loss: 0.0563487373
+===> Epoch[23](3/11): Loss: 0.0646003708
+===> Epoch[23](4/11): Loss: 0.0505349785
+===> Epoch[23](5/11): Loss: 0.0598299801
+===> Epoch[23](6/11): Loss: 0.0501896441
+===> Epoch[23](7/11): Loss: 0.0604917035
+===> Epoch[23](8/11): Loss: 0.0673905388
+===> Epoch[23](9/11): Loss: 0.0663879290
+===> Epoch[23](10/11): Loss: 0.0810034350
+===> Epoch[23](11/11): Loss: 0.0717800185
+|||||||||||||||||||||min_epoch_loss is 0.0620994358|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:23--Avg-PSNR: 19.1174 dB
+psnr_valid:[19.117439],last_psnr_avr_1:[18.720457],last_psnr_avr_2:[19.460747],last_psnr_avr_3:[19.461170],last_psnr_avr_4:[19.300631],last_psnr_avr_5:[18.280375]
+Epoch=24, lr=0.0001
+===> Epoch[24](1/11): Loss: 0.0635284185
+===> Epoch[24](2/11): Loss: 0.0709964857
+===> Epoch[24](3/11): Loss: 0.0687901974
+===> Epoch[24](4/11): Loss: 0.0732473806
+===> Epoch[24](5/11): Loss: 0.0731235147
+===> Epoch[24](6/11): Loss: 0.0664682239
+===> Epoch[24](7/11): Loss: 0.0562654659
+===> Epoch[24](8/11): Loss: 0.0805684775
+===> Epoch[24](9/11): Loss: 0.0831305534
+===> Epoch[24](10/11): Loss: 0.0733820349
+===> Epoch[24](11/11): Loss: 0.0593937412
+epoch_avr_loss is 0.069899
+----Start Validate----
+---validate-->This-epoch:24--Avg-PSNR: 19.6106 dB
+||||||||||||||||best psnr is [19.61058]|||||||||||||||
+psnr_valid:[19.610580],last_psnr_avr_1:[19.117439],last_psnr_avr_2:[18.720457],last_psnr_avr_3:[19.460747],last_psnr_avr_4:[19.461170],last_psnr_avr_5:[19.300631]
+-----best psnr model saved------
+Epoch=25, lr=0.0001
+===> Epoch[25](1/11): Loss: 0.0637514219
+===> Epoch[25](2/11): Loss: 0.0617145561
+===> Epoch[25](3/11): Loss: 0.0796420425
+===> Epoch[25](4/11): Loss: 0.0650495738
+===> Epoch[25](5/11): Loss: 0.0724177957
+===> Epoch[25](6/11): Loss: 0.0759596899
+===> Epoch[25](7/11): Loss: 0.0693548620
+===> Epoch[25](8/11): Loss: 0.0569929481
+===> Epoch[25](9/11): Loss: 0.0676985383
+===> Epoch[25](10/11): Loss: 0.0714774877
+===> Epoch[25](11/11): Loss: 0.0658882335
+epoch_avr_loss is 0.068177
+----Start Validate----
+---validate-->This-epoch:25--Avg-PSNR: 19.4727 dB
+psnr_valid:[19.472691],last_psnr_avr_1:[19.610580],last_psnr_avr_2:[19.117439],last_psnr_avr_3:[18.720457],last_psnr_avr_4:[19.460747],last_psnr_avr_5:[19.461170]
+Epoch=26, lr=0.0001
+===> Epoch[26](1/11): Loss: 0.0734012574
+===> Epoch[26](2/11): Loss: 0.0583357923
+===> Epoch[26](3/11): Loss: 0.0636589080
+===> Epoch[26](4/11): Loss: 0.0593018308
+===> Epoch[26](5/11): Loss: 0.0643017441
+===> Epoch[26](6/11): Loss: 0.0609471612
+===> Epoch[26](7/11): Loss: 0.0632360503
+===> Epoch[26](8/11): Loss: 0.0698810816
+===> Epoch[26](9/11): Loss: 0.0512949638
+===> Epoch[26](10/11): Loss: 0.0556895211
+===> Epoch[26](11/11): Loss: 0.0494576842
+|||||||||||||||||||||min_epoch_loss is 0.0608641813|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:26--Avg-PSNR: 19.9784 dB
+||||||||||||||||best psnr is [19.97836]|||||||||||||||
+psnr_valid:[19.978359],last_psnr_avr_1:[19.472691],last_psnr_avr_2:[19.610580],last_psnr_avr_3:[19.117439],last_psnr_avr_4:[18.720457],last_psnr_avr_5:[19.460747]
+-----best psnr model saved------
+Epoch=27, lr=0.0001
+===> Epoch[27](1/11): Loss: 0.0562813580
+===> Epoch[27](2/11): Loss: 0.0807603896
+===> Epoch[27](3/11): Loss: 0.0640900880
+===> Epoch[27](4/11): Loss: 0.0580521822
+===> Epoch[27](5/11): Loss: 0.0685329437
+===> Epoch[27](6/11): Loss: 0.0804408491
+===> Epoch[27](7/11): Loss: 0.0679319799
+===> Epoch[27](8/11): Loss: 0.0511345565
+===> Epoch[27](9/11): Loss: 0.0746643171
+===> Epoch[27](10/11): Loss: 0.0431866646
+===> Epoch[27](11/11): Loss: 0.0847136378
+epoch_avr_loss is 0.066344
+----Start Validate----
+---validate-->This-epoch:27--Avg-PSNR: 18.7565 dB
+psnr_valid:[18.756483],last_psnr_avr_1:[19.978359],last_psnr_avr_2:[19.472691],last_psnr_avr_3:[19.610580],last_psnr_avr_4:[19.117439],last_psnr_avr_5:[18.720457]
+Epoch=28, lr=0.0001
+===> Epoch[28](1/11): Loss: 0.0743685514
+===> Epoch[28](2/11): Loss: 0.0664781630
+===> Epoch[28](3/11): Loss: 0.0799215138
+===> Epoch[28](4/11): Loss: 0.0756843314
+===> Epoch[28](5/11): Loss: 0.0636972412
+===> Epoch[28](6/11): Loss: 0.0497051775
+===> Epoch[28](7/11): Loss: 0.0795087144
+===> Epoch[28](8/11): Loss: 0.0663392246
+===> Epoch[28](9/11): Loss: 0.0585631542
+===> Epoch[28](10/11): Loss: 0.0828862488
+===> Epoch[28](11/11): Loss: 0.0506720208
+epoch_avr_loss is 0.067984
+----Start Validate----
+---validate-->This-epoch:28--Avg-PSNR: 20.3115 dB
+||||||||||||||||best psnr is [20.31150]|||||||||||||||
+psnr_valid:[20.311504],last_psnr_avr_1:[18.756483],last_psnr_avr_2:[19.978359],last_psnr_avr_3:[19.472691],last_psnr_avr_4:[19.610580],last_psnr_avr_5:[19.117439]
+-----best psnr model saved------
+Epoch=29, lr=0.0001
+===> Epoch[29](1/11): Loss: 0.0668104216
+===> Epoch[29](2/11): Loss: 0.0500846133
+===> Epoch[29](3/11): Loss: 0.0573918633
+===> Epoch[29](4/11): Loss: 0.0488084629
+===> Epoch[29](5/11): Loss: 0.0500673465
+===> Epoch[29](6/11): Loss: 0.0783487707
+===> Epoch[29](7/11): Loss: 0.0706929713
+===> Epoch[29](8/11): Loss: 0.0529652350
+===> Epoch[29](9/11): Loss: 0.0481019318
+===> Epoch[29](10/11): Loss: 0.0719699487
+===> Epoch[29](11/11): Loss: 0.0589692444
+|||||||||||||||||||||min_epoch_loss is 0.0594737100|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:29--Avg-PSNR: 19.1750 dB
+psnr_valid:[19.174999],last_psnr_avr_1:[20.311504],last_psnr_avr_2:[18.756483],last_psnr_avr_3:[19.978359],last_psnr_avr_4:[19.472691],last_psnr_avr_5:[19.610580]
+Epoch=30, lr=0.0001
+===> Epoch[30](1/11): Loss: 0.0641399771
+===> Epoch[30](2/11): Loss: 0.0470407717
+===> Epoch[30](3/11): Loss: 0.0791764259
+===> Epoch[30](4/11): Loss: 0.0675679296
+===> Epoch[30](5/11): Loss: 0.0654653534
+===> Epoch[30](6/11): Loss: 0.0519163907
+===> Epoch[30](7/11): Loss: 0.0580133311
+===> Epoch[30](8/11): Loss: 0.0638664663
+===> Epoch[30](9/11): Loss: 0.0594223067
+===> Epoch[30](10/11): Loss: 0.0669985786
+===> Epoch[30](11/11): Loss: 0.0679309070
+epoch_avr_loss is 0.062867
+----Start Validate----
+---validate-->This-epoch:30--Avg-PSNR: 20.6399 dB
+||||||||||||||||best psnr is [20.63993]|||||||||||||||
+psnr_valid:[20.639925],last_psnr_avr_1:[19.174999],last_psnr_avr_2:[20.311504],last_psnr_avr_3:[18.756483],last_psnr_avr_4:[19.978359],last_psnr_avr_5:[19.472691]
+-----best psnr model saved------
+Epoch=31, lr=0.0001
+===> Epoch[31](1/11): Loss: 0.0599014908
+===> Epoch[31](2/11): Loss: 0.0603793189
+===> Epoch[31](3/11): Loss: 0.0681207851
+===> Epoch[31](4/11): Loss: 0.0429834388
+===> Epoch[31](5/11): Loss: 0.0726414099
+===> Epoch[31](6/11): Loss: 0.0578238666
+===> Epoch[31](7/11): Loss: 0.0798244551
+===> Epoch[31](8/11): Loss: 0.0590031296
+===> Epoch[31](9/11): Loss: 0.0622959435
+===> Epoch[31](10/11): Loss: 0.0648852810
+===> Epoch[31](11/11): Loss: 0.0617715940
+epoch_avr_loss is 0.062694
+----Start Validate----
+---validate-->This-epoch:31--Avg-PSNR: 19.4372 dB
+psnr_valid:[19.437227],last_psnr_avr_1:[20.639925],last_psnr_avr_2:[19.174999],last_psnr_avr_3:[20.311504],last_psnr_avr_4:[18.756483],last_psnr_avr_5:[19.978359]
+Epoch=32, lr=0.0001
+===> Epoch[32](1/11): Loss: 0.0651291832
+===> Epoch[32](2/11): Loss: 0.0508674383
+===> Epoch[32](3/11): Loss: 0.0491837636
+===> Epoch[32](4/11): Loss: 0.0777279437
+===> Epoch[32](5/11): Loss: 0.0591388941
+===> Epoch[32](6/11): Loss: 0.0762995109
+===> Epoch[32](7/11): Loss: 0.0659715235
+===> Epoch[32](8/11): Loss: 0.0642865598
+===> Epoch[32](9/11): Loss: 0.0715862960
+===> Epoch[32](10/11): Loss: 0.0592178926
+===> Epoch[32](11/11): Loss: 0.0583712906
+epoch_avr_loss is 0.063435
+----Start Validate----
+---validate-->This-epoch:32--Avg-PSNR: 20.3846 dB
+psnr_valid:[20.384550],last_psnr_avr_1:[19.437227],last_psnr_avr_2:[20.639925],last_psnr_avr_3:[19.174999],last_psnr_avr_4:[20.311504],last_psnr_avr_5:[18.756483]
+Epoch=33, lr=0.0001
+===> Epoch[33](1/11): Loss: 0.0493002534
+===> Epoch[33](2/11): Loss: 0.0534705035
+===> Epoch[33](3/11): Loss: 0.0569597296
+===> Epoch[33](4/11): Loss: 0.0577128641
+===> Epoch[33](5/11): Loss: 0.0572262369
+===> Epoch[33](6/11): Loss: 0.0516035855
+===> Epoch[33](7/11): Loss: 0.0680731758
+===> Epoch[33](8/11): Loss: 0.0471780375
+===> Epoch[33](9/11): Loss: 0.0621174574
+===> Epoch[33](10/11): Loss: 0.0555670410
+===> Epoch[33](11/11): Loss: 0.0650697500
+|||||||||||||||||||||min_epoch_loss is 0.0567526032|||||||||||||||||||||
+----Start Validate----
+---validate-->This-epoch:33--Avg-PSNR: 19.8552 dB
+psnr_valid:[19.855202],last_psnr_avr_1:[20.384550],last_psnr_avr_2:[19.437227],last_psnr_avr_3:[20.639925],last_psnr_avr_4:[19.174999],last_psnr_avr_5:[20.311504]
+Epoch=34, lr=0.0001
+===> Epoch[34](1/11): Loss: 0.0786564946
+===> Epoch[34](2/11): Loss: 0.0734732002
+===> Epoch[34](3/11): Loss: 0.0727999136
+===> Epoch[34](4/11): Loss: 0.0450054631
+===> Epoch[34](5/11): Loss: 0.0537440702
+===> Epoch[34](6/11): Loss: 0.0843168348
+===> Epoch[34](7/11): Loss: 0.0687270164
+===> Epoch[34](8/11): Loss: 0.0492635295
+===> Epoch[34](9/11): Loss: 0.0548309162
+===> Epoch[34](10/11): Loss: 0.0450410843
+===> Epoch[34](11/11): Loss: 0.0590571463
+epoch_avr_loss is 0.062265
+----Start Validate----
+---validate-->This-epoch:34--Avg-PSNR: 20.4059 dB
+psnr_valid:[20.405920],last_psnr_avr_1:[19.855202],last_psnr_avr_2:[20.384550],last_psnr_avr_3:[19.437227],last_psnr_avr_4:[20.639925],last_psnr_avr_5:[19.174999]
+Epoch=35, lr=0.0001
+===> Epoch[35](1/11): Loss: 0.0699192286
+===> Epoch[35](2/11): Loss: 0.0683614016
+===> Epoch[35](3/11): Loss: 0.0608544871
+===> Epoch[35](4/11): Loss: 0.0643632933
+===> Epoch[35](5/11): Loss: 0.0627129525
+===> Epoch[35](6/11): Loss: 0.0549272709
+===> Epoch[35](7/11): Loss: 0.0615713410
+===> Epoch[35](8/11): Loss: 0.0676613599
+===> Epoch[35](9/11): Loss: 0.0560446344
+Traceback (most recent call last):
+  File "train_psnr_indication.py", line 330, in <module>
+    main()
+  File "train_psnr_indication.py", line 159, in main
+    train(training_data_loader, optimizer, model, criterion, epoch)
+  File "train_psnr_indication.py", line 187, in train
+    lr = adjust_learning_rate(optimizer, epoch - 1)
+  File "train_psnr_indication.py", line 170, in adjust_learning_rate
+    if adjust_lr_flag is True and epoch > 500:
+TypeError: '>' not supported between instances of 'Adam' and 'int'
+===> Epoch[35](10/11): Loss: 0.0599464551
+===> Epoch[35](11/11): Loss: 0.0395698473
+epoch_avr_loss is 0.060539
+----Start Validate----
+---validate-->This-epoch:35--Avg-PSNR: 19.3714 dB
+-------adjust lr------
+psnr_valid:[19.371363],last_psnr_avr_1:[0.000000],last_psnr_avr_2:[0.000000],last_psnr_avr_3:[0.000000],last_psnr_avr_4:[0.000000],last_psnr_avr_5:[0.000000]
