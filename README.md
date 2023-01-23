@@ -1,3 +1,4 @@
+# REOCCUR CBREN
 # CBREN
 This is the Pytorch implementation for our IEEE TCSVT paper : CBREN: Convolutional Neural Networks for Constant Bit Rate Video Quality Enhancement.    <br/>
 
@@ -17,6 +18,7 @@ https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch <br/>
 Run `sh make.sh` to compile the deformable convolution. 
 If there are compilation errors, delete the 'build/' directory before recompiling.  <br/>
 ### Datasets
+We uses nitre2021 dataset. <br/>
 The directories used in the project need to be created manually. <br/>
 Download HEVC standard test sequence: https://pan.baidu.com/s/1m0jZfkhX_cjaoFrHlMp0Xg Extraction code: 88n9 <br/>
 Hm16.0 is used to compress the standard test sequence.   <br/>
