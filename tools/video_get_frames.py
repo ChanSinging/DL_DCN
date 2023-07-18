@@ -2,22 +2,22 @@ from os import *
 from os.path import join
 import cv2
 
-video_path = '../datasets_test/'
-save_path = '../datasets_test/hevc_gt_frame/'
+video_path = '../data/'
+save_path = '../data/test/'
 
 current_save_path = ''
 
 for i in listdir(video_path):
     print(i)
     full_video_name = i.split('.')
-    video_name = full_video_name[0]
+    video_name = full_video_name[0]  #
 
-    cap = cv2.VideoCapture('{}{}.mkv'.format(video_path, video_name))
+    cap = cv2.VideoCapture('{}{}.mp4'.format(video_path, video_name))
     # total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     total_frames = 2000
 
     # for j in range(0, total_frames):
-    for j in range(1, total_frames + 1):
+    for j in range(1, total_frames + 1):  # 1 0
         if j % 1 == 0:
             ret, frame = cap.read()
             if not ret:
